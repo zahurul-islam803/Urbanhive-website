@@ -1,0 +1,70 @@
+/* Responsive For Tablet */
+@media screen and (max-width: 800px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 700px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* Responsive For Mobile Device */
+@media screen and (max-width: 400px) {
+  /* Navbar Design Starts Here */
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-items-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-items-container a {
+    margin-top: 20px;
+  }
+  .nav-items-container .log-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  /* Navbar Design Ends Here */
+  /* Banner Design Starts here */
+  .banner-container {
+    flex-direction: column;
+  }
+  .banner-text h1 {
+    font-size: 30px;
+  }
+  .banner-text p {
+    font-size: 25px;
+  }
+  .banner-img,
+  .banner-text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .fa-brands {
+    font-size: 30px;
+  }
+  /* Banner Design Ends here */
+
+  /* products design starts here */
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  /* products design ends here */
+
+  /* Discount design starts here */
+  .discount-container {
+    flex-direction: column;
+  }
+  .discount-img, .discount-text{
+  width: 100%;
+}
+.discount-number{
+  height: 40px;
+  width: 40px;
+  font-size: 15px;
+}
+
+  /* Discount design ends here */
+}

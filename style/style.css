@@ -1,0 +1,244 @@
+/* Google Fonts Link */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@400;700&family=Poppins:wght@500;600;700&family=Shantell+Sans:wght@300&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+/* Reset CSS Code */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+/* Navbar Design Starts Here */
+nav {
+  background-color: #9376e0;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.logo-container {
+  display: flex;
+  width: 50%;
+}
+.logo-container img {
+  width: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.logo-container p {
+  font-size: 30px;
+}
+.hive-section {
+  color: #e893cf;
+}
+.nav-items-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items-container a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+.nav-items-container .log-btn {
+  background-color: #e893cf;
+  padding: 10px 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+}
+/* Navbar Design Ends Here */
+
+/* Banner Design Starts Here */
+.banner-container {
+  max-width: 1400px;
+  margin: 50px auto 0;
+  display: flex;
+  background-color: #e6e9eb;
+  padding: 10px;
+  border-radius: 10px;
+}
+.banner-text {
+  width: 50%;
+  text-align: center;
+}
+.banner-img {
+  width: 50%;
+}
+.banner-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.banner-text h1 {
+  background-image: linear-gradient(to bottom, #9376e0, #e893cf);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 50px;
+}
+.banner-text p {
+  font-size: 45px;
+  font-family: "Dancing Script", cursive;
+}
+.fa-brands {
+  font-size: 50px;
+}
+.banner-btn {
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 2px solid #9376e0;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto 40px;
+}
+/* Banner Design Ends Here */
+
+/* Products Design starts here */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.single-product {
+  background-color: #e6e9eb;
+  border-radius: 10px;
+  padding: 0 10px;
+  box-shadow: 2px 2px 4px black;
+}
+.single-product img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.product-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-icon {
+  font-size: 20px;
+}
+.product-icon-container span {
+  padding: 10px;
+  background-color: green;
+  border-radius: 50%;
+  margin-left: 5px;
+  color: white;
+}
+/* Products Design Ends here */
+
+/* Discount Design Starts here */
+.discount-section {
+  background-color: #9376e0;
+  min-height: 500px;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+.discount-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+.discount-img {
+  width: 50%;
+  position: relative;
+}
+.discount-img img {
+  width: 70%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.discount-text {
+  width: 50%;
+}
+.discount-number {
+  background-color: rgb(165, 165, 39);
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5%;
+  left: 60%;
+}
+.shoping-btn{
+  background-color: transparent;
+  font-weight: 700;
+  padding: 7px;
+  border: 1px solid white;
+  font-size: 18px;
+  border-radius: 5px;
+}
+/* Discount Design Ends here */
+
+/* Review design section starts here */
+.review-container {
+  margin-top: 60px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.single-review {
+  flex-basis: 300px;
+  background-color: #e893cf;
+  padding: 10px;
+  border-radius: 10px;
+}
+.single-review img {
+  width: 60px;
+  height: 60px;
+}
+.top-review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-review p {
+  font-size: 20px;
+}
+/* Review design section ends here */
+
+/* Footer section design starts here */
+.footer-section {
+  background-color: #9376e0;
+  margin-top: 50px;
+  text-align: center;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.footer-container img {
+  width: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.footer-container p{
+  font-size: 30px;
+}
+.footer-desc{
+ padding-bottom: 70px;
+}
+/* Footer section design ends here */
